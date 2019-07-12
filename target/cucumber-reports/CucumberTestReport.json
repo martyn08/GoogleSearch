@@ -1,0 +1,702 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Search result page contains search query",
+        "description": "",
+        "id": "google-search;search-result-page-contains-search-query",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3442872998,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on google search page",
+            "match": {
+              "location": "GoogleSearchSteps.i_am_on_google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1228450314,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search for \"Cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 14
+                }
+              ],
+              "location": "GoogleSearchSteps.i_search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102303,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the page title should contain \"cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cucumber",
+                  "offset": 31
+                }
+              ],
+              "location": "GoogleSearchSteps.the_page_title_should_contain(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Google first result description contains searched query",
+        "description": "",
+        "id": "google-search;google-first-result-description-contains-searched-query",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2532781802,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on google search page",
+            "match": {
+              "location": "GoogleSearchSteps.i_am_on_google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1114717520,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I search for \"Java\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Java",
+                  "offset": 14
+                }
+              ],
+              "location": "GoogleSearchSteps.i_search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67879,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the first line on the result page should contain \"Java\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Java",
+                  "offset": 50
+                }
+              ],
+              "location": "GoogleSearchSteps.the_first_line_on_the_result_page_should_contain(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Withdraw money from account",
+        "description": "",
+        "id": "google-search;withdraw-money-from-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 698181,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I have 200 on my SAVINGS account",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 7
+                }
+              ],
+              "location": "GoogleSearchSteps.i_have_on_my_SAVINGS_account(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86303,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I 100 from SAVINGS account",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 2
+                }
+              ],
+              "location": "GoogleSearchSteps.i_from_SAVINGS_account(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67879,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i 100 cash from the ATM",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 2
+                }
+              ],
+              "location": "GoogleSearchSteps.i_cash_from_the_ATM(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@GoogleSearch"
+          },
+          {
+            "line": 1,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Withdraw money from account",
+        "description": "",
+        "id": "google-search;withdraw-money-from-account;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 129940,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I have 50 on my SAVINGS account",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 7
+                }
+              ],
+              "location": "GoogleSearchSteps.i_have_on_my_SAVINGS_account(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59151,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I 50 from SAVINGS account",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 2
+                }
+              ],
+              "location": "GoogleSearchSteps.i_from_SAVINGS_account(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78060,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i 0 cash from the ATM",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 2
+                }
+              ],
+              "location": "GoogleSearchSteps.i_cash_from_the_ATM(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@GoogleSearch"
+          },
+          {
+            "line": 1,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Validate Very login page",
+        "description": "",
+        "id": "google-search;validate-very-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2661913861,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am on google search page",
+            "match": {
+              "location": "GoogleSearchSteps.i_am_on_google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2186288395,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "i navigate to \"URL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 15
+                }
+              ],
+              "location": "GoogleSearchSteps.i_navigate_to(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 363132915,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "i enter \"Email Address\" and \"Password\" and \"Postcode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Address",
+                  "offset": 9
+                },
+                {
+                  "val": "Password",
+                  "offset": 29
+                },
+                {
+                  "val": "Postcode",
+                  "offset": 44
+                }
+              ],
+              "location": "GoogleSearchSteps.i_enter_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54782519,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "i clicked on \"Sign in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sign in",
+                  "offset": 14
+                }
+              ],
+              "location": "GoogleSearchSteps.i_clicked_on(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34685559,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Show error message \"Please enter a valid email address or account number\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please enter a valid email address or account number",
+                  "offset": 20
+                }
+              ],
+              "location": "GoogleSearchSteps.show_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Login page and shopping",
+        "description": "",
+        "id": "google-search;login-page-and-shopping",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2500314909,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I am on google search page",
+            "match": {
+              "location": "GoogleSearchSteps.i_am_on_google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2704868507,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "i navigate to \"URL\" to search for online store",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 15
+                }
+              ],
+              "location": "GoogleSearchSteps.i_navigate_to_to_search_for_online_store(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1342569531,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "i click on \"sign in\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sign in",
+                  "offset": 12
+                }
+              ],
+              "location": "GoogleSearchSteps.iClickOnButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188855666,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "i enter valid \"Email Address\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Address",
+                  "offset": 15
+                },
+                {
+                  "val": "Password",
+                  "offset": 35
+                }
+              ],
+              "location": "GoogleSearchSteps.i_enter_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1219572257,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "i clicked on \"Sign in\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sign in",
+                  "offset": 14
+                }
+              ],
+              "location": "GoogleSearchSteps.i_clicked_on_button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1483902311,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "i click on \"T-shirt\" section to view the product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "T-shirt",
+                  "offset": 12
+                }
+              ],
+              "location": "GoogleSearchSteps.i_click_on_section_to_view_the_product(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1206741718,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "i click on \"Item\" to select desired shirt",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Item",
+                  "offset": 12
+                }
+              ],
+              "location": "GoogleSearchSteps.i_click_on_to_select_desired_shirt(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56709790,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "i click on \"Add to cart\" to add the item to basket",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Add to cart",
+                  "offset": 12
+                }
+              ],
+              "location": "GoogleSearchSteps.i_click_on_to_add_the_item_to_basket(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2094406742,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "i click on \"proceed to checkout\" to exit the basket",
+            "match": {
+              "arguments": [
+                {
+                  "val": "proceed to checkout",
+                  "offset": 12
+                }
+              ],
+              "location": "GoogleSearchSteps.i_click_on_to_exit_the_basket(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 896267202,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "i click on \"proceed to checkout\" to exit summary",
+            "match": {
+              "arguments": [
+                {
+                  "val": "proceed to checkout",
+                  "offset": 12
+                }
+              ],
+              "location": "GoogleSearchSteps.i_click_on_to_exit_summary(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 837861897,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "i click on \"proceed to checkout\" to exit Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "proceed to checkout",
+                  "offset": 12
+                }
+              ],
+              "location": "GoogleSearchSteps.i_click_on_to_exit_Address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61081667,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "i check the \"Terms of Service\" to accept condition",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Terms of Service",
+                  "offset": 13
+                }
+              ],
+              "location": "GoogleSearchSteps.i_check_the_to_accept_condition(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 862499945,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "i click on \"proceed to checkout\" to exit Shipping",
+            "match": {
+              "arguments": [
+                {
+                  "val": "proceed to checkout",
+                  "offset": 12
+                }
+              ],
+              "location": "GoogleSearchSteps.i_click_on_to_exit_Shipping(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51394,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "\"Payment page\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Payment page",
+                  "offset": 1
+                }
+              ],
+              "location": "GoogleSearchSteps.is_displayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 833801778,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "i click on \"pay by check\" button to make payment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pay by check",
+                  "offset": 12
+                }
+              ],
+              "location": "GoogleSearchSteps.iClickOnButtonToMakePayment(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2127242120,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "i click on \"confirm my order\" to complete the transaction",
+            "match": {
+              "arguments": [
+                {
+                  "val": "confirm my order",
+                  "offset": 12
+                }
+              ],
+              "location": "GoogleSearchSteps.iClickOnToCompleteTheTransaction(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Search",
+    "description": "As a web user\r\nI want to find information on google\r\nSo that I get a better understanding of the topic",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "googleSearch.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@GoogleSearch"
+      },
+      {
+        "line": 1,
+        "name": "@test"
+      }
+    ]
+  }
+]
