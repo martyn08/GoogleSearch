@@ -43,7 +43,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_am_on_google_search_page()"
 });
 formatter.result({
-  "duration": 3476603844,
+  "duration": 3857033143,
   "status": "passed"
 });
 formatter.match({
@@ -56,7 +56,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_search_for(String)"
 });
 formatter.result({
-  "duration": 2111157980,
+  "duration": 1858567204,
   "status": "passed"
 });
 formatter.match({
@@ -69,7 +69,7 @@ formatter.match({
   "location": "GoogleSearchSteps.the_page_title_should_contain(String)"
 });
 formatter.result({
-  "duration": 204122,
+  "duration": 284606,
   "status": "passed"
 });
 formatter.scenario({
@@ -99,7 +99,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_am_on_google_search_page()"
 });
 formatter.result({
-  "duration": 2738755014,
+  "duration": 3403613287,
   "status": "passed"
 });
 formatter.match({
@@ -112,7 +112,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_search_for(String)"
 });
 formatter.result({
-  "duration": 2133003345,
+  "duration": 1784658320,
   "status": "passed"
 });
 formatter.match({
@@ -125,7 +125,7 @@ formatter.match({
   "location": "GoogleSearchSteps.the_first_line_on_the_result_page_should_contain(String)"
 });
 formatter.result({
-  "duration": 76121,
+  "duration": 95031,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -239,7 +239,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_have_on_my_SAVINGS_account(int)"
 });
 formatter.result({
-  "duration": 602183,
+  "duration": 839758,
   "status": "passed"
 });
 formatter.match({
@@ -252,7 +252,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_from_SAVINGS_account(int)"
 });
 formatter.result({
-  "duration": 128000,
+  "duration": 151757,
   "status": "passed"
 });
 formatter.match({
@@ -265,7 +265,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_cash_from_the_ATM(int)"
 });
 formatter.result({
-  "duration": 120243,
+  "duration": 140121,
   "status": "passed"
 });
 formatter.scenario({
@@ -320,7 +320,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_have_on_my_SAVINGS_account(int)"
 });
 formatter.result({
-  "duration": 141576,
+  "duration": 126061,
   "status": "passed"
 });
 formatter.match({
@@ -333,7 +333,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_from_SAVINGS_account(int)"
 });
 formatter.result({
-  "duration": 111515,
+  "duration": 75152,
   "status": "passed"
 });
 formatter.match({
@@ -346,7 +346,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_cash_from_the_ATM(int)"
 });
 formatter.result({
-  "duration": 101334,
+  "duration": 73212,
   "status": "passed"
 });
 formatter.scenario({
@@ -386,7 +386,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_am_on_google_search_page()"
 });
 formatter.result({
-  "duration": 2792951941,
+  "duration": 3450026400,
   "status": "passed"
 });
 formatter.match({
@@ -399,7 +399,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_navigate_to(String)"
 });
 formatter.result({
-  "duration": 4231220215,
+  "duration": 4335248163,
   "status": "passed"
 });
 formatter.match({
@@ -420,7 +420,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_enter_and_and(String,String,String)"
 });
 formatter.result({
-  "duration": 710673034,
+  "duration": 638915704,
   "status": "passed"
 });
 formatter.match({
@@ -433,7 +433,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_clicked_on(String)"
 });
 formatter.result({
-  "duration": 109516280,
+  "duration": 100611442,
   "status": "passed"
 });
 formatter.match({
@@ -446,7 +446,7 @@ formatter.match({
   "location": "GoogleSearchSteps.show_error_message(String)"
 });
 formatter.result({
-  "duration": 60550391,
+  "duration": 58958089,
   "status": "passed"
 });
 formatter.scenario({
@@ -541,7 +541,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_am_on_google_search_page()"
 });
 formatter.result({
-  "duration": 3008969710,
+  "duration": 3459704950,
   "status": "passed"
 });
 formatter.match({
@@ -554,7 +554,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_navigate_to_to_search_for_online_store(String)"
 });
 formatter.result({
-  "duration": 2845323896,
+  "duration": 5987653327,
   "status": "passed"
 });
 formatter.match({
@@ -567,7 +567,7 @@ formatter.match({
   "location": "GoogleSearchSteps.iClickOnButton(String)"
 });
 formatter.result({
-  "duration": 1238486650,
+  "duration": 3591568287,
   "status": "passed"
 });
 formatter.match({
@@ -584,7 +584,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_enter_valid_and(String,String)"
 });
 formatter.result({
-  "duration": 203104296,
+  "duration": 468809925,
   "status": "passed"
 });
 formatter.match({
@@ -597,7 +597,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_clicked_on_button(String)"
 });
 formatter.result({
-  "duration": 1123280179,
+  "duration": 1836655920,
   "status": "passed"
 });
 formatter.match({
@@ -610,7 +610,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_click_on_section_to_view_the_product(String)"
 });
 formatter.result({
-  "duration": 1190479307,
+  "duration": 2069530216,
   "status": "passed"
 });
 formatter.match({
@@ -623,7 +623,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_click_on_to_select_desired_shirt(String)"
 });
 formatter.result({
-  "duration": 1105660274,
+  "duration": 1838940043,
   "status": "passed"
 });
 formatter.match({
@@ -636,7 +636,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_click_on_to_add_the_item_to_basket(String)"
 });
 formatter.result({
-  "duration": 73965683,
+  "duration": 135953036,
   "status": "passed"
 });
 formatter.match({
@@ -649,7 +649,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_click_on_to_exit_the_basket(String)"
 });
 formatter.result({
-  "duration": 1619730356,
+  "duration": 2167329536,
   "status": "passed"
 });
 formatter.match({
@@ -662,7 +662,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_click_on_to_exit_summary(String)"
 });
 formatter.result({
-  "duration": 817400461,
+  "duration": 1073529248,
   "status": "passed"
 });
 formatter.match({
@@ -675,7 +675,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_click_on_to_exit_Address(String)"
 });
 formatter.result({
-  "duration": 721441049,
+  "duration": 1936207969,
   "status": "passed"
 });
 formatter.match({
@@ -688,7 +688,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_check_the_to_accept_condition(String)"
 });
 formatter.result({
-  "duration": 71957438,
+  "duration": 119710604,
   "status": "passed"
 });
 formatter.match({
@@ -701,7 +701,7 @@ formatter.match({
   "location": "GoogleSearchSteps.i_click_on_to_exit_Shipping(String)"
 });
 formatter.result({
-  "duration": 753399399,
+  "duration": 1902858134,
   "status": "passed"
 });
 formatter.match({
@@ -714,7 +714,7 @@ formatter.match({
   "location": "GoogleSearchSteps.is_displayed(String)"
 });
 formatter.result({
-  "duration": 73213,
+  "duration": 151273,
   "status": "passed"
 });
 formatter.match({
@@ -727,7 +727,7 @@ formatter.match({
   "location": "GoogleSearchSteps.iClickOnButtonToMakePayment(String)"
 });
 formatter.result({
-  "duration": 645095242,
+  "duration": 1522327526,
   "status": "passed"
 });
 formatter.match({
@@ -740,7 +740,7 @@ formatter.match({
   "location": "GoogleSearchSteps.iClickOnToCompleteTheTransaction(String)"
 });
 formatter.result({
-  "duration": 1409771263,
+  "duration": 2266331765,
   "status": "passed"
 });
 });
